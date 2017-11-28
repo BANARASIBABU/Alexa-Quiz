@@ -1,0 +1,66 @@
+{
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "samples": [
+            "{StateName}",
+            "{Capital}",
+            "tell me about {StateName}",
+            "tell me about {Capital}",
+            "what do you know about {StateName}",
+            "what do you know about {Capital}",
+            "{StateName} information",
+            "{Capital} information",
+              ],
+          "slots": [
+            {
+              "name": "StateName",
+              "type": "AMAZON.US_STATE",
+              "samples": []
+            },
+            {
+              "name": "Capital",
+              "type": "AMAZON.US_CITY",
+              "samples": []
+            }
+          ]
+        },
+        {
+          "name": "QuizIntent",
+          "samples": [
+            "start a quiz",
+            "start a quiz game",
+            "and start a quiz",
+            "and quiz me",
+            "for a quiz",
+            "a quiz"
+          ],
+          "slots": []
+        }
+      ]
+      
+            }
+          ]
+        }
+      ]
+}
